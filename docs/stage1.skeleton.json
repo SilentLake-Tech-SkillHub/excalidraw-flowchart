@@ -1,0 +1,317 @@
+[
+ {
+  "type": "text",
+  "x": 540,
+  "y": 30,
+  "text": "阶段 ① 环境检查与用户确认",
+  "fontSize": 44,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "text",
+  "x": 95,
+  "y": 330,
+  "text": "要画图",
+  "fontSize": 30,
+  "strokeColor": "#1e1e1e",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 150,
+  "y": 355,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    80,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 300,
+  "y": 215,
+  "text": "检查",
+  "fontSize": 30,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 250,
+  "y": 280,
+  "width": 300,
+  "height": 150,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "hachure",
+  "strokeColor": "#1971c2",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "Node · Chrome\nExcalidraw 依赖\n离线页面",
+   "fontSize": 22,
+   "strokeColor": "#1971c2",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "text",
+  "x": 330,
+  "y": 445,
+  "text": "check-env.mjs",
+  "fontSize": 24,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 570,
+  "y": 355,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    120,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 850,
+  "y": 215,
+  "text": "有缺项?",
+  "fontSize": 30,
+  "strokeColor": "#9c36b5",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 710,
+  "y": 280,
+  "width": 280,
+  "height": 150,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#d0bfff",
+  "fillStyle": "solid",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "dashed",
+  "label": {
+   "text": "列出缺什么\n问你要不要补充",
+   "fontSize": 22,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "text",
+  "x": 850,
+  "y": 445,
+  "text": "只询问，不安装",
+  "fontSize": 22,
+  "strokeColor": "#9c36b5",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 500,
+  "y": 280,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    -130
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#2f9e44",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 560,
+  "y": 100,
+  "text": "全部就绪，直接进入阶段 ②",
+  "fontSize": 24,
+  "strokeColor": "#2f9e44",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1010,
+  "y": 330,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    120,
+    -60
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 1090,
+  "y": 215,
+  "text": "你同意",
+  "fontSize": 22,
+  "strokeColor": "#2f9e44",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 1190,
+  "y": 224.9,
+  "width": 120,
+  "height": 90.2,
+  "strokeWidth": 2,
+  "backgroundColor": "#b2f2bb",
+  "fillStyle": "hachure",
+  "strokeColor": "#2f9e44",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "ellipse",
+  "x": 1190,
+  "y": 215,
+  "width": 120,
+  "height": 19.8,
+  "strokeWidth": 2,
+  "backgroundColor": "#b2f2bb",
+  "fillStyle": "solid",
+  "strokeColor": "#2f9e44"
+ },
+ {
+  "type": "ellipse",
+  "x": 1190,
+  "y": 305.2,
+  "width": 120,
+  "height": 19.8,
+  "strokeWidth": 2,
+  "backgroundColor": "#b2f2bb",
+  "fillStyle": "solid",
+  "strokeColor": "#2f9e44"
+ },
+ {
+  "type": "text",
+  "x": 1250,
+  "y": 335,
+  "text": "npm install\nnpm run build",
+  "fontSize": 22,
+  "strokeColor": "#2f9e44",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1010,
+  "y": 400,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    120,
+    100
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 1090,
+  "y": 520,
+  "text": "你不同意",
+  "fontSize": 22,
+  "strokeColor": "#e8590c",
+  "textAlign": "center"
+ },
+ {
+  "type": "text",
+  "x": 1290,
+  "y": 480,
+  "text": "停下并说明",
+  "fontSize": 30,
+  "strokeColor": "#e8590c",
+  "textAlign": "center"
+ },
+ {
+  "type": "text",
+  "x": 1290,
+  "y": 530,
+  "text": "不退而求其次\n不用在线服务",
+  "fontSize": 22,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1180,
+  "y": 395,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    245
+   ],
+   [
+    -700,
+    245
+   ],
+   [
+    -700,
+    40
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#495057",
+  "strokeStyle": "dashed"
+ },
+ {
+  "type": "text",
+  "x": 830,
+  "y": 652,
+  "text": "补充完成，重新检查",
+  "fontSize": 22,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ }
+]

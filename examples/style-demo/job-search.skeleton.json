@@ -1,0 +1,382 @@
+[
+ {
+  "type": "text",
+  "x": 600,
+  "y": 30,
+  "text": "工作搜索流程",
+  "fontSize": 44,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "text",
+  "x": 105,
+  "y": 345,
+  "text": "一批新的\n校招搜索",
+  "fontSize": 30,
+  "strokeColor": "#1e1e1e",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 190,
+  "y": 380,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    80,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "rectangle",
+  "x": 290,
+  "y": 210,
+  "width": 340,
+  "height": 480,
+  "strokeWidth": 2,
+  "strokeColor": "#1e1e1e",
+  "roundness": {
+   "type": 3
+  }
+ },
+ {
+  "type": "text",
+  "x": 460,
+  "y": 155,
+  "text": "范围确认",
+  "fontSize": 30,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 370,
+  "y": 250,
+  "width": 180,
+  "height": 120,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "hachure",
+  "strokeColor": "#1971c2",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "公司 · 岗位族\n排除项 · 城市",
+   "fontSize": 22,
+   "strokeColor": "#1971c2",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "text",
+  "x": 460,
+  "y": 385,
+  "text": "你确认的范围",
+  "fontSize": 24,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 460,
+  "y": 480,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    -55
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "rectangle",
+  "x": 400,
+  "y": 504.9,
+  "width": 120,
+  "height": 90.2,
+  "strokeWidth": 2,
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "hachure",
+  "strokeColor": "#1971c2",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "ellipse",
+  "x": 400,
+  "y": 495,
+  "width": 120,
+  "height": 19.8,
+  "strokeWidth": 2,
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "solid",
+  "strokeColor": "#1971c2"
+ },
+ {
+  "type": "ellipse",
+  "x": 400,
+  "y": 585.2,
+  "width": 120,
+  "height": 19.8,
+  "strokeWidth": 2,
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "solid",
+  "strokeColor": "#1971c2"
+ },
+ {
+  "type": "text",
+  "x": 460,
+  "y": 630,
+  "text": "求职配置 · 工作簿",
+  "fontSize": 20,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 650,
+  "y": 410,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    100,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 865,
+  "y": 250,
+  "text": "计划盘点",
+  "fontSize": 30,
+  "strokeColor": "#2f9e44",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 800,
+  "y": 320,
+  "width": 130,
+  "height": 170,
+  "strokeWidth": 2,
+  "backgroundColor": "#b2f2bb",
+  "fillStyle": "solid",
+  "strokeColor": "#2f9e44"
+ },
+ {
+  "type": "line",
+  "x": 826,
+  "y": 357.4,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    78,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "line",
+  "x": 826,
+  "y": 405,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    78,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "line",
+  "x": 826,
+  "y": 452.6,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    78,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "text",
+  "x": 865,
+  "y": 510,
+  "text": "五种固定状态\n每个计划各记一条",
+  "fontSize": 22,
+  "strokeColor": "#2f9e44",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 980,
+  "y": 410,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    130,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 1235,
+  "y": 250,
+  "text": "逐公司收集岗位",
+  "fontSize": 30,
+  "strokeColor": "#9c36b5",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 1140,
+  "y": 320,
+  "width": 190,
+  "height": 190,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#d0bfff",
+  "fillStyle": "solid",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "dashed",
+  "label": {
+   "text": "官方入口\n标题 + 完整 JD\n去重写入岗位表",
+   "fontSize": 22,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "text",
+  "x": 1235,
+  "y": 530,
+  "text": "写入后读回核对",
+  "fontSize": 24,
+  "strokeColor": "#9c36b5",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1350,
+  "y": 410,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    120,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 1585,
+  "y": 340,
+  "text": "汇报覆盖统计",
+  "fontSize": 30,
+  "strokeColor": "#e8590c",
+  "textAlign": "center"
+ },
+ {
+  "type": "text",
+  "x": 1585,
+  "y": 420,
+  "text": "你选补查，或交给投递",
+  "fontSize": 22,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1235,
+  "y": 575,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    150
+   ],
+   [
+    -370,
+    150
+   ],
+   [
+    -370,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#495057",
+  "strokeStyle": "dashed"
+ },
+ {
+  "type": "text",
+  "x": 1050,
+  "y": 737,
+  "text": "首轮还有没访问的公司，取下一家",
+  "fontSize": 22,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ }
+]

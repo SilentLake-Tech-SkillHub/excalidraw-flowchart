@@ -1,0 +1,301 @@
+[
+ {
+  "type": "text",
+  "x": 540,
+  "y": 30,
+  "text": "阶段 ③ HTML 交付",
+  "fontSize": 44,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "text",
+  "x": 210,
+  "y": 190,
+  "text": "上一步的成品",
+  "fontSize": 30,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 155,
+  "y": 290,
+  "width": 90,
+  "height": 100,
+  "strokeWidth": 2,
+  "backgroundColor": "#ffffff",
+  "fillStyle": "solid",
+  "strokeColor": "#1971c2"
+ },
+ {
+  "type": "rectangle",
+  "x": 165,
+  "y": 280,
+  "width": 90,
+  "height": 100,
+  "strokeWidth": 2,
+  "backgroundColor": "#ffffff",
+  "fillStyle": "solid",
+  "strokeColor": "#1971c2"
+ },
+ {
+  "type": "rectangle",
+  "x": 175,
+  "y": 270,
+  "width": 90,
+  "height": 100,
+  "strokeWidth": 2,
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "solid",
+  "strokeColor": "#1971c2"
+ },
+ {
+  "type": "text",
+  "x": 210,
+  "y": 400,
+  "text": "png · svg · excalidraw",
+  "fontSize": 22,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 330,
+  "y": 340,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    140,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 640,
+  "y": 190,
+  "text": "打包",
+  "fontSize": 30,
+  "strokeColor": "#2f9e44",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 575,
+  "y": 260,
+  "width": 130,
+  "height": 170,
+  "strokeWidth": 2,
+  "backgroundColor": "#b2f2bb",
+  "fillStyle": "solid",
+  "strokeColor": "#2f9e44"
+ },
+ {
+  "type": "line",
+  "x": 601,
+  "y": 297.4,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    78,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "line",
+  "x": 601,
+  "y": 345,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    78,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "line",
+  "x": 601,
+  "y": 392.6,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    78,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "text",
+  "x": 640,
+  "y": 450,
+  "text": "deliver-html.mjs\n图 + 图注 + 下载链接",
+  "fontSize": 22,
+  "strokeColor": "#2f9e44",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 770,
+  "y": 340,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    140,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 1100,
+  "y": 190,
+  "text": "一个自包含 HTML",
+  "fontSize": 30,
+  "strokeColor": "#9c36b5",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 980,
+  "y": 260,
+  "width": 240,
+  "height": 160,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#d0bfff",
+  "fillStyle": "solid",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "dashed",
+  "label": {
+   "text": "断网也能看\n浅色 深色自适应\n可直接发给别人",
+   "fontSize": 20,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "text",
+  "x": 1100,
+  "y": 440,
+  "text": "--open 自动在浏览器打开",
+  "fontSize": 22,
+  "strokeColor": "#9c36b5",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1240,
+  "y": 340,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    140,
+    0
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 1500,
+  "y": 270,
+  "text": "你确认",
+  "fontSize": 30,
+  "strokeColor": "#e8590c",
+  "textAlign": "center"
+ },
+ {
+  "type": "text",
+  "x": 1500,
+  "y": 340,
+  "text": "满意：结束",
+  "fontSize": 22,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "text",
+  "x": 1500,
+  "y": 380,
+  "text": "要改：回到阶段 ②",
+  "fontSize": 22,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1500,
+  "y": 430,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    130
+   ],
+   [
+    -860,
+    130
+   ],
+   [
+    -860,
+    90
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#495057",
+  "strokeStyle": "dashed"
+ },
+ {
+  "type": "text",
+  "x": 1070,
+  "y": 572,
+  "text": "你手改过 .excalidraw 时，以你改的为准再导出",
+  "fontSize": 22,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ }
+]
