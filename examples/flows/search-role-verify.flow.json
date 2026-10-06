@@ -1,0 +1,41 @@
+{
+  "title": "岗位核验",
+  "stages": [
+    { "name": "打开详情页", "nodes": [
+      { "id": "o1", "label": "打开一个岗位详情页", "kind": "in" },
+      { "id": "o2", "label": "标题 JD 届别 经验要求\n都看得到?", "kind": "gate" },
+      { "id": "o3", "label": "从结果卡片重试一次" },
+      { "id": "o4", "label": "还是打不开?", "kind": "gate" },
+      { "id": "o5", "label": "列入未解决\n不算已核验", "kind": "end" }
+    ]},
+    { "name": "判断岗位", "nodes": [
+      { "id": "j1", "label": "标题加完整 JD\n属于目标岗位?", "kind": "gate" },
+      { "id": "j2", "label": "边界情况\n记录证据" },
+      { "id": "j3", "label": "不属于\n记录排除理由", "kind": "end" }
+    ]},
+    { "name": "实习判断", "nodes": [
+      { "id": "i1", "label": "是实习，而本批\n要正式岗位?", "kind": "gate" },
+      { "id": "i2", "label": "官方写明转正\n标 实习转正候选" },
+      { "id": "i3", "label": "普通实习\n不纳入", "kind": "end" }
+    ]},
+    { "name": "写入账本", "nodes": [
+      { "id": "w1", "label": "去重后立刻写入\n岗位直达链接与完整 JD", "kind": "db" }
+    ]}
+  ],
+  "edges": [
+    { "from": "o1", "to": "o2" },
+    { "from": "o2", "to": "o3", "label": "打不开" },
+    { "from": "o3", "to": "o4" },
+    { "from": "o4", "to": "o5", "label": "是" },
+    { "from": "o2", "to": "j1", "label": "看得到" },
+    { "from": "o4", "to": "j1", "label": "否" },
+    { "from": "j1", "to": "j2", "label": "拿不准" },
+    { "from": "j1", "to": "j3" },
+    { "from": "j1", "to": "i1", "label": "属于" },
+    { "from": "j2", "to": "i1" },
+    { "from": "i1", "to": "i2", "label": "写明转正" },
+    { "from": "i1", "to": "i3" },
+    { "from": "i1", "to": "w1", "label": "不是实习" },
+    { "from": "i2", "to": "w1" }
+  ]
+}

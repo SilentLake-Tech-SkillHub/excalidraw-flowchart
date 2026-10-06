@@ -1,0 +1,853 @@
+[
+ {
+  "type": "text",
+  "x": 938,
+  "y": 30,
+  "text": "提交门禁",
+  "fontSize": 44,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 110,
+  "y": 215,
+  "width": 280,
+  "height": 414,
+  "strokeWidth": 2,
+  "strokeColor": "#1e1e1e",
+  "roundness": {
+   "type": 3
+  }
+ },
+ {
+  "type": "text",
+  "x": 250,
+  "y": 160,
+  "text": "展示目标",
+  "fontSize": 30,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 134,
+  "y": 249,
+  "width": 232,
+  "height": 84,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "hachure",
+  "strokeColor": "#1971c2",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "准备点击最终提交",
+   "fontSize": 20,
+   "strokeColor": "#1971c2",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 205,
+  "y": 399,
+  "width": 90,
+  "height": 110,
+  "strokeWidth": 2,
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "solid",
+  "strokeColor": "#1971c2"
+ },
+ {
+  "type": "line",
+  "x": 223,
+  "y": 423.2,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    54,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "line",
+  "x": 223,
+  "y": 454,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    54,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "line",
+  "x": 223,
+  "y": 484.8,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    54,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "text",
+  "x": 250,
+  "y": 521,
+  "text": "完整投递目标\n规则 公司 BU 办公地\n岗位 志愿槽位",
+  "fontSize": 20,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 540,
+  "y": 215,
+  "width": 280,
+  "height": 476,
+  "strokeWidth": 2,
+  "strokeColor": "#1e1e1e",
+  "roundness": {
+   "type": 3
+  }
+ },
+ {
+  "type": "text",
+  "x": 680,
+  "y": 160,
+  "text": "你来确认",
+  "fontSize": 30,
+  "strokeColor": "#2f9e44",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 564,
+  "y": 249,
+  "width": 232,
+  "height": 104,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#d0bfff",
+  "fillStyle": "solid",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "dashed",
+  "label": {
+   "text": "你明确确认\n这个具体目标?",
+   "fontSize": 20,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 564,
+  "y": 419,
+  "width": 232,
+  "height": 88,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#b2f2bb",
+  "fillStyle": "solid",
+  "strokeColor": "#2f9e44",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "只说帮我填写提交\n只授权操作 继续问",
+   "fontSize": 20,
+   "strokeColor": "#2f9e44",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 564,
+  "y": 573,
+  "width": 232,
+  "height": 88,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "transparent",
+  "fillStyle": "solid",
+  "strokeColor": "#e8590c",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "联系不上\n停在提交前 记 待确认",
+   "fontSize": 20,
+   "strokeColor": "#e8590c",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 984,
+  "y": 215,
+  "width": 280,
+  "height": 472,
+  "strokeWidth": 2,
+  "strokeColor": "#1e1e1e",
+  "roundness": {
+   "type": 3
+  }
+ },
+ {
+  "type": "text",
+  "x": 1124,
+  "y": 160,
+  "text": "提交",
+  "fontSize": 30,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 1008,
+  "y": 249,
+  "width": 232,
+  "height": 88,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#e9ecef",
+  "fillStyle": "solid",
+  "strokeColor": "#495057",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "重新核对名额\n岗位 材料版本",
+   "fontSize": 20,
+   "strokeColor": "#495057",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 1008,
+  "y": 403,
+  "width": 232,
+  "height": 84,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#e9ecef",
+  "fillStyle": "solid",
+  "strokeColor": "#495057",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "一次只提交一个申请",
+   "fontSize": 20,
+   "strokeColor": "#495057",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 1008,
+  "y": 553,
+  "width": 232,
+  "height": 104,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#d0bfff",
+  "fillStyle": "solid",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "dashed",
+  "label": {
+   "text": "页面结果?",
+   "fontSize": 20,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 1486,
+  "y": 215,
+  "width": 280,
+  "height": 840,
+  "strokeWidth": 2,
+  "strokeColor": "#1e1e1e",
+  "roundness": {
+   "type": 3
+  }
+ },
+ {
+  "type": "text",
+  "x": 1626,
+  "y": 160,
+  "text": "回执",
+  "fontSize": 30,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 1581,
+  "y": 249,
+  "width": 90,
+  "height": 110,
+  "strokeWidth": 2,
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "solid",
+  "strokeColor": "#1971c2"
+ },
+ {
+  "type": "line",
+  "x": 1599,
+  "y": 273.2,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    54,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "line",
+  "x": 1599,
+  "y": 304,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    54,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "line",
+  "x": 1599,
+  "y": 334.8,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    54,
+    0
+   ]
+  ],
+  "strokeWidth": 3,
+  "strokeColor": "#1e1e1e"
+ },
+ {
+  "type": "text",
+  "x": 1626,
+  "y": 371,
+  "text": "读回申请记录",
+  "fontSize": 20,
+  "strokeColor": "#1971c2",
+  "textAlign": "center"
+ },
+ {
+  "type": "rectangle",
+  "x": 1510,
+  "y": 463,
+  "width": 232,
+  "height": 84,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "solid",
+  "strokeColor": "#1971c2",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "更新追踪表和批次台账",
+   "fontSize": 20,
+   "strokeColor": "#1971c2",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 1510,
+  "y": 613,
+  "width": 232,
+  "height": 88,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#a5d8ff",
+  "fillStyle": "solid",
+  "strokeColor": "#1971c2",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "弹窗 跳转 草稿保存\n不算成功 先查账号",
+   "fontSize": 20,
+   "strokeColor": "#1971c2",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 1510,
+  "y": 767,
+  "width": 232,
+  "height": 104,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "#d0bfff",
+  "fillStyle": "solid",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "dashed",
+  "label": {
+   "text": "确认已提交?",
+   "fontSize": 20,
+   "strokeColor": "#1e1e1e",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "rectangle",
+  "x": 1510,
+  "y": 937,
+  "width": 232,
+  "height": 88,
+  "strokeWidth": 2,
+  "roundness": {
+   "type": 3
+  },
+  "backgroundColor": "transparent",
+  "fillStyle": "solid",
+  "strokeColor": "#e8590c",
+  "strokeStyle": "solid",
+  "label": {
+   "text": "有新的具体指令\n才重试",
+   "fontSize": 20,
+   "strokeColor": "#e8590c",
+   "textAlign": "center"
+  }
+ },
+ {
+  "type": "arrow",
+  "x": 250,
+  "y": 333,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    66
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "arrow",
+  "x": 300,
+  "y": 454,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    118,
+    0
+   ],
+   [
+    118,
+    -153
+   ],
+   [
+    264,
+    -153
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "arrow",
+  "x": 680,
+  "y": 353,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    66
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 614,
+  "y": 374,
+  "text": "只说帮我提交",
+  "fontSize": 18,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 796,
+  "y": 463,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    11,
+    0
+   ],
+   [
+    11,
+    -162
+   ],
+   [
+    0,
+    -162
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#495057",
+  "strokeStyle": "dashed"
+ },
+ {
+  "type": "arrow",
+  "x": 796,
+  "y": 325,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    18,
+    0
+   ],
+   [
+    18,
+    292
+   ],
+   [
+    0,
+    292
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 866,
+  "y": 459,
+  "text": "联系不上",
+  "fontSize": 18,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 796,
+  "y": 301,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    124,
+    0
+   ],
+   [
+    124,
+    -8
+   ],
+   [
+    212,
+    -8
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 839,
+  "y": 275,
+  "text": "是",
+  "fontSize": 18,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1124,
+  "y": 337,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    66
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "arrow",
+  "x": 1124,
+  "y": 487,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    66
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "arrow",
+  "x": 1240,
+  "y": 595,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    160,
+    0
+   ],
+   [
+    160,
+    -291
+   ],
+   [
+    336,
+    -291
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 1328,
+  "y": 569,
+  "text": "成功页或回执",
+  "fontSize": 18,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1240,
+  "y": 615,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    182,
+    0
+   ],
+   [
+    182,
+    42
+   ],
+   [
+    270,
+    42
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 1292,
+  "y": 619,
+  "text": "其他",
+  "fontSize": 18,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1626,
+  "y": 397,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    66
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "arrow",
+  "x": 1626,
+  "y": 701,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    66
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "arrow",
+  "x": 1742,
+  "y": 819,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    11,
+    0
+   ],
+   [
+    11,
+    -515
+   ],
+   [
+    -66,
+    -515
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#495057",
+  "strokeStyle": "dashed"
+ },
+ {
+  "type": "text",
+  "x": 1785,
+  "y": 549.5,
+  "text": "是",
+  "fontSize": 18,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ },
+ {
+  "type": "arrow",
+  "x": 1626,
+  "y": 871,
+  "points": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    66
+   ]
+  ],
+  "strokeWidth": 2,
+  "endArrowhead": "arrow",
+  "strokeColor": "#1e1e1e",
+  "strokeStyle": "solid"
+ },
+ {
+  "type": "text",
+  "x": 1605,
+  "y": 892,
+  "text": "否",
+  "fontSize": 18,
+  "strokeColor": "#495057",
+  "textAlign": "center"
+ }
+]

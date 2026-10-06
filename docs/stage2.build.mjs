@@ -10,9 +10,9 @@ s.arrow(455, 500, 455, 450);
 s.text(455, 515, "有歧义才问\n一次问一个", 22, C.blue);
 
 s.arrow(640, 420, 760, 420);
-s.title(930, 230, "选模式", C.green);
-s.block(790, 270, 280, 110, "总览 / 讲解用图\n示意图模式 compose.mjs", "green", { size: 20 });
-s.block(790, 440, 280, 110, "细节流程 / 分支多\nMermaid 模式 .mmd", "green", { hachure: true, size: 20 });
+s.title(930, 230, "选出图方式", C.green);
+s.block(790, 270, 280, 110, "总览 / 讲解用图\n手工构图 compose.mjs", "green", { size: 20 });
+s.block(790, 440, 280, 110, "细节流程 / 分支多\n流程规格 flow.mjs", "green", { hachure: true, size: 20 });
 s.text(900, 570, "不确定：先画总览再补细节", 20, C.gray);
 
 s.arrow(1090, 325, 1230, 400);

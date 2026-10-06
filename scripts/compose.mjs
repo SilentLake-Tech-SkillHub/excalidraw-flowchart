@@ -32,10 +32,10 @@ export class Scene {
     return this;
   }
   /** Rounded block with a label centered inside (hachure = diagonal-line fill like the reference). */
-  block(x, y, w, h, label, color = "blue", { hachure = false, dashed = false, size = 22, labelColor } = {}) {
+  block(x, y, w, h, label, color = "blue", { hachure = false, dashed = false, size = 22, labelColor, fill } = {}) {
     this.el.push({
       type: "rectangle", x, y, width: w, height: h, strokeWidth: 2, roundness: { type: 3 },
-      backgroundColor: FILL[color], fillStyle: hachure ? "hachure" : "solid",
+      backgroundColor: fill === "none" ? "transparent" : FILL[color], fillStyle: hachure ? "hachure" : "solid",
       strokeColor: dashed ? C.ink : C[color], strokeStyle: dashed ? "dashed" : "solid",
       label: label ? { text: label, fontSize: size, strokeColor: labelColor || (dashed ? C.ink : C[color]), textAlign: "center" } : undefined,
     });

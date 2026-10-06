@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Usage: node scripts/render.mjs <input.mmd|input.json|input.excalidraw> [--out DIR] [--name NAME] [--scale 2] [--chrome PATH]
-// Input kinds: Mermaid (.mmd/.md) | Excalidraw element skeleton (JSON array) | full scene (.excalidraw / {elements}).
+// Usage: node scripts/render.mjs <input.skeleton.json|input.excalidraw> [--out DIR] [--name NAME] [--scale 2] [--chrome PATH]
+// Input kinds: Excalidraw element skeleton (JSON array, e.g. from compose.mjs / flow.mjs) | full scene (.excalidraw / {elements}).
 // Output: <name>.excalidraw (editable), <name>.svg, <name>.png. Fully offline once `npm i && npm run build` has run.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, statSync } from "node:fs";
 import { createServer } from "node:http";
@@ -25,11 +25,7 @@ mkdirSync(outDir, { recursive: true });
 
 const raw = readFileSync(input, "utf8");
 let kind, payload;
-if (/\.(mmd|md|mermaid)$/i.test(input)) {
-  kind = "mermaid";
-  const m = raw.match(/```mermaid\s*([\s\S]*?)```/);
-  payload = (m ? m[1] : raw).trim();
-} else {
+{
   const j = JSON.parse(raw);
   if (Array.isArray(j)) { kind = "skeleton"; payload = j; }
   else if (j.elements) { kind = "scene"; payload = j; }
@@ -53,8 +49,7 @@ try {
   await page.waitForFunction(() => window.__api);
   const { scene, svg } = await page.evaluate(async ({ kind, payload }) => {
     const api = window.__api;
-    const scene = kind === "mermaid" ? await api.mermaidToScene(payload)
-      : kind === "skeleton" ? await api.skeletonToScene(payload)
+    const scene = kind === "skeleton" ? await api.skeletonToScene(payload)
       : { elements: payload.elements, files: payload.files || {}, appState: payload.appState };
     return { scene, svg: await api.toSvg(scene) };
   }, { kind, payload });
